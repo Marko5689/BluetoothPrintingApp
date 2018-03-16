@@ -12,9 +12,6 @@ C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\res\lay
 C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\res\values\strings.xml
 C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\R.cs.flag
 C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\uploadflags.txt
-C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\BluetoothPrintingApp.csprojResolveAssemblyReference.cache
-C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\bin\Debug\BluetoothPrintingApp.dll.mdb
-C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\obj\Debug\android\assets\BluetoothPrintingApp.dll.mdb
 C:\Users\ALC\Desktop\BluetoothPrintingApp\BluetoothPrintingApp\bin\Debug\BluetoothPrintingApp.dll
 bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb

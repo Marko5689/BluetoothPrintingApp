@@ -75,30 +75,6 @@ namespace BluetoothPrintingApp
             return string.Empty;
         }
 
-        //public List<Device> GetAvailableDevices()
-        //{
-        //    dlist = new List<Device>();
-
-        //    // Register the recieve intent filter
-        //    Application.Context.RegisterReceiver(new BTReceiver(), new IntentFilter(BluetoothDevice.ActionFound));
-
-        //   Java.Lang.Thread.Sleep(5000);
-        //    return dlist;
-        //}
-
-        //public class BTReceiver : BroadcastReceiver
-        //{
-        //    public override void OnReceive(Context context, Intent intent)
-        //    {
-        //        String action = intent.Action;
-        //        if (BluetoothDevice.ActionFound == action)
-        //        {
-        //            BluetoothDevice device = intent.GetParcelableExtra(BluetoothDevice.ExtraDevice) as BluetoothDevice;
-
-        //            dlist.Add(new Device(device.Name, device.Address));
-        //        }
-        //    }
-        //}
         public void PrintText(string text)
         {
             byte[] buffer = Encoding.UTF8.GetBytes(text);

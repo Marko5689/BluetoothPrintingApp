@@ -24,7 +24,11 @@ namespace BluetoothPrintingApp
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            string mAddress = "00:02:0A:03:8A:E0";
+            var _address = Intent.GetStringExtra("Address");
+
+            string mAddress = _address == null ? "00:2A:0A:03:8A:E0" : _address;
+
+            //string mAddress = "00:02:0A:03:8A:E0";
             MobilePrinter mobilePrinter = new MobilePrinter(mAddress);
 
             mobilePrinter.Connect();
